@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Android iOS Developer',
     icon: creator,
   },
 ];
@@ -198,7 +198,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'E-learning Web Cefise',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
@@ -219,7 +219,7 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'E-commerce Plattform',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -240,7 +240,7 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Plataforma de Juegos',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [
@@ -261,7 +261,7 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Clon de Trello',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [
@@ -279,6 +279,48 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Scroll-Trigger GSAP',
+    description:
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jobit,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Mobile E-learning App',
+    description:
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jobit,
     source_code_link: 'https://github.com/',
   },
 ];
