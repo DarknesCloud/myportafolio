@@ -205,8 +205,20 @@
 
 .perfil-saul {
   position: absolute;
-  width: 35%;
+  width: 18%;
   top: 80px;
-  right: 200px;
-  left: 800px;
+  right: 150px;
+  left: 950px;
+}
+.perfil-saul img {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+.perfil-saul img:hover {
+  transform: scale(1.1);
+}
+.social-saul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }

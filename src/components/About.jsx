@@ -1,7 +1,7 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
-
+import perfil from '../assets/img/saul-gris.jpg';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
@@ -55,7 +55,7 @@ const About = () => {
       </motion.p>
 
       <div className="perfil-saul">
-        <img src="https://w7.pngwing.com/pngs/981/645/png-transparent-default-profile-united-states-computer-icons-desktop-free-high-quality-person-icon-miscellaneous-silhouette-symbol.png" />
+        <img src={perfil} />
       </div>
 
       <div className="mt-20 flex flex-wrap gap-10">

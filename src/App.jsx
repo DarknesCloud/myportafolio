@@ -11,7 +11,6 @@ import {
   Works,
   StarsCanvas,
 } from './components';
-import { SocialMedia } from './components/SocialMedia';
 
 const App = () => {
   return (
