@@ -19,9 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  cefise,
+  electro,
+  gaming,
+  robeniorsystem,
+  peliculas,
+  trelloclon,
   threejs,
 } from '../assets';
 
@@ -116,55 +119,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'React.js & Frontend Developer',
+    company_name: 'Linkedin',
     icon: starbucks,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.',
+      'Colaborar con equipos multidisciplinarios, incluyendo diseñadores, gerentes de productos y otros desarrolladores, para crear productos de alta calidad.',
+      'Implementar diseños responsivos y asegurar la compatibilidad entre navegadores.',
+      'Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.',
     ],
   },
   {
     title: 'React Native Developer',
-    company_name: 'Tesla',
+    company_name: 'Linkedin',
     icon: tesla,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Construir experiencias móviles avanzadas utilizando React Native y otras tecnologías complementarias.',
+      'Colaborar estrechamente con diseñadores y equipos interdisciplinarios para llevar a cabo proyectos de alta calidad.',
+      'Asegurar un rendimiento óptimo y una interfaz de usuario fluida en diversas plataformas móviles.',
+      'Contribuir a revisiones de código colaborativas y ofrecer valiosos comentarios para mejorar continuamente el proceso de desarrollo.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Backend Developer',
+    company_name: 'Linkedin',
     icon: shopify,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Desarrollar y mantener la lógica de negocio y funcionalidades del lado del servidor utilizando tecnologías como Node.js, Python, o Java.',
+      'Colaborar estrechamente con equipos de front-end y arquitectos de software para diseñar e implementar APIs robustas y escalables.',
+      'Optimizar el rendimiento del backend, asegurando tiempos de respuesta rápidos y alta disponibilidad.',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
+    title: 'DevOps',
+    company_name: 'Linkedin',
     icon: meta,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Implementar y mantener la infraestructura de desarrollo, pruebas y producción utilizando herramientas como Docker, Kubernetes y AWS.',
+      'Gestionar y monitorear los sistemas en producción, asegurando la disponibilidad, el rendimiento y la seguridad.',
+      'Participar en revisiones de configuración y proporcionar retroalimentación para mejorar la eficiencia operativa y la confiabilidad del entorno.',
     ],
   },
 ];
@@ -200,7 +201,7 @@ const projects = [
   {
     name: 'E-learning Web Cefise',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Este es un proyecto elaborado en React.js en conjunto con otras tecnologias para crear una plataforma capaz de dar a conocer la clinica de fisioterapia, Cefise.',
     tags: [
       {
         name: 'react',
@@ -215,13 +216,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: cefise,
+    source_code_link: 'https://github.com/DarknesCloud/',
   },
   {
-    name: 'E-commerce Plattform',
+    name: 'Landing Page',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Sitio web diseñado específicamente para captar la atención de los visitantes y convertirlos en clientes potenciales o promover un producto en particular.',
     tags: [
       {
         name: 'react',
@@ -236,13 +237,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: robeniorsystem,
+    source_code_link: 'https://github.com/DarknesCloud/robenior',
   },
   {
-    name: 'Plataforma de Juegos',
+    name: 'Plataforma E-commerce',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Una e-commerce de productos electrónicos que ofrece un catálogo variado, un proceso de compra seguro, información detallada del producto, y buen servicio al cliente. ',
     tags: [
       {
         name: 'nextjs',
@@ -257,34 +258,34 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: electro,
+    source_code_link: 'https://github.com/DarknesCloud/electro-master',
+  },
+  {
+    name: 'Sitio Web de Peliculas',
+    description:
+      'Sitio web de películas proporciona un catálogo completo, información detallada, herramientas de búsqueda, valoraciones y reseñas de usuarios, opciones de reproducción y contenido adicional relacionado con el mundo del cine',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: peliculas,
+    source_code_link: 'https://github.com/DarknesCloud/web_peliculas',
   },
   {
     name: 'Clon de Trello',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Scroll-Trigger GSAP',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'El proyecto consistió en desarrollar un clon de Trello utilizando React. Trello es una herramienta de gestión de proyectos basada en tableros y tarjetas. Se creó una interfaz interactiva y amigable que permite a los usuarios crear tableros.',
     tags: [
       {
         name: 'react',
@@ -299,13 +300,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: trelloclon,
+    source_code_link: 'https://github.com/DarknesCloud/trello-clon',
   },
   {
-    name: 'Mobile E-learning App',
+    name: 'Plataforma de Juegos',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Esta es una plataforma de juegos que ofrece una amplia selección de juegos, una interfaz intuitiva, funcionalidades sociales, opciones de personalización y progresión, y soporte multiplataforma para proporcionar una experiencia atractiva para los usuarios.',
     tags: [
       {
         name: 'react',
@@ -320,8 +321,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: gaming,
+    source_code_link: 'https://github.com/DarknesCloud/cyborg-gaming',
   },
 ];
 
