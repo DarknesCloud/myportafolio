@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
@@ -25,6 +25,8 @@ import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
+import logo_saul from './company/logo-saul.png';
+import logo_saul2 from './company/logo-saul2.png';
 
 import cefise from './cefise.png';
 import electro from './electro.png';
@@ -65,4 +67,6 @@ export {
   robeniorsystem,
   peliculas,
   trelloclon,
+  logo_saul,
+  logo_saul2,
 };

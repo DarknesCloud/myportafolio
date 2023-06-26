@@ -26,6 +26,8 @@ import {
   peliculas,
   trelloclon,
   threejs,
+  logo_saul,
+  logo_saul2,
 } from '../assets';
 
 export const navLinks = [
@@ -121,7 +123,7 @@ const experiences = [
   {
     title: 'React.js & Frontend Developer',
     company_name: 'Linkedin',
-    icon: starbucks,
+    icon: logo_saul,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
@@ -134,7 +136,7 @@ const experiences = [
   {
     title: 'React Native Developer',
     company_name: 'Linkedin',
-    icon: tesla,
+    icon: logo_saul2,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
@@ -147,7 +149,7 @@ const experiences = [
   {
     title: 'Backend Developer',
     company_name: 'Linkedin',
-    icon: shopify,
+    icon: logo_saul,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
     points: [
@@ -159,7 +161,7 @@ const experiences = [
   {
     title: 'DevOps',
     company_name: 'Linkedin',
-    icon: meta,
+    icon: logo_saul2,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
@@ -173,26 +175,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
+      'Pensé que era imposible hacer un sitio web tan hermoso como nuestro producto, pero Saul me demostró que estaba equivocada.',
+    name: 'Cristina Sillo',
+    designation: '',
+    company: '',
     image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+      'Nunca he conocido a un desarrollador web que realmente se preocupe por el éxito de sus clientes como lo hace Saul.',
+    name: 'Carlos Gomez',
+    designation: '',
+    company: '',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
+      'Después de que Saul optimizó nuestro sitio web, nuestro tráfico aumentó en un 50%. ¡No podemos agradecerles lo suficiente!',
+    name: 'Franklin Velasquez',
+    designation: '',
+    company: '',
     image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
